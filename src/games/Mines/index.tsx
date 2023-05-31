@@ -6,7 +6,7 @@ export default {
   name: 'Mines',
   short_name: 'mines',
   description: '',
-  creator: 'DwRFGbjKbsEhUMe5at3qWvH7i8dAJyhhwdnFoZMnLVRV',
+  creator: '9sVBzX6K4sWVHveUpWQB1gCuynev33reuNu44b4bndHY',
   theme_color: '#ff6a6a',
   image,
   app: React.lazy(() => import('./App')),
