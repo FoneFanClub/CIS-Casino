@@ -14,7 +14,7 @@ declare module 'styled-components' {
 export const theme: DefaultTheme = {
   palette: {
     background: '#24175a',
-    backgroundLight: '#1a1c24',
+    backgroundLight: '#24175a',
     textColor: '#24175a',
     primary: '#ff335c',
   },
