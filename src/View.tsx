@@ -32,7 +32,6 @@ function Details({ game }: {game?: GameBundle}) {
             </StylelessButton>
           </div>
         </Section>
-        {game ? (
           <Section>
             <h1>{game.name}</h1>
             <div style={{ color: '#ffffff99', wordWrap: 'break-word', overflow: 'hidden' }}>By {game.creator}</div>
@@ -43,21 +42,6 @@ function Details({ game }: {game?: GameBundle}) {
               </Button>
             </div>
           </Section>
-        ) : (
-          <Section>
-            <div style={{"background-color": "rgba(0, 0, 0, 0.6)"}}>
-              <h1>FFC Casino</h1>
-              <div>
-                A decentralized, provably-fair casino built on <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">gamba</a>.
-              </div>
-              <div style={{ display: 'flex', gap: '20px' }}>
-                <Button onClick={() => window.open('https://twitter.com/gambalabs', '_blank')}>
-                  Read More
-                </Button>
-              </div>
-            </div>
-          </Section>
-        )}
       </div>
     </>
   )
