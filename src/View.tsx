@@ -45,7 +45,7 @@ function Details({ game }: {game?: GameBundle}) {
           </Section>
         ) : (
           <Section>
-            <div style={{"background-color": "rgba(0, 0, 0, 0.6)"}}>
+            <div style={{"background-color": "rgba(0, 0, 0, 0.6)", padding: "5rem"}}>
               <h1>FFC Casino</h1>
               <div>
                 A decentralized, provably-fair casino built on <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">gamba</a>.
