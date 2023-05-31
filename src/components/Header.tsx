@@ -63,7 +63,7 @@ export function Header() {
     <Wrapper>
       <NavigationLink to="/">
         <Logo src="/logo.png" />
-        <div className="label">CIS Casino</div>
+        <div className="label">FFC Casino</div>
       </NavigationLink>
       <Links>
         <a target="_blank" href="http://discord.gg/xjBsW3e8fK" rel="noreferrer">
