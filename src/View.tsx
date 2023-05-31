@@ -45,12 +45,12 @@ function Details({ game }: {game?: GameBundle}) {
           </Section>
         ) : (
           <Section>
-            <div style={{"background-color": "rgba(0, 0, 0, 0.6)", padding: "5rem"}}>
+            <div style={{"background-color": "rgba(0, 0, 0, 0.6)", padding: "3rem"}}>
               <h1>FFC Casino</h1>
               <div>
                 A decentralized, provably-fair casino built on <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">gamba</a>.
               </div>
-              <div style={{ display: 'flex', gap: '20px' }}>
+              <div style={{ display: 'flex', gap: '50px' }}>
                 <Button onClick={() => window.open('https://twitter.com/gambalabs', '_blank')}>
                   Read More
                 </Button>
