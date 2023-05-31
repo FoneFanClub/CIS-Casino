@@ -66,9 +66,6 @@ export function Header() {
         <div className="label">CIS Casino</div>
       </NavigationLink>
       <Links>
-        <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">
-          <FaGithub />
-        </a>
         <a target="_blank" href="http://discord.gg/xjBsW3e8fK" rel="noreferrer">
           <FaDiscord />
         </a>
