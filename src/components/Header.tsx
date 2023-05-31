@@ -66,10 +66,10 @@ export function Header() {
         <div className="label">FFC Casino</div>
       </NavigationLink>
       <Links>
-        <a target="_blank" href="http://discord.gg/xjBsW3e8fK" rel="noreferrer">
+        <a target="_blank" href="https://discord.gg/fone-fan-club-957293180078944286" rel="noreferrer">
           <FaDiscord />
         </a>
-        <a target="_blank" href="https://twitter.com/GambaLabs" rel="noreferrer">
+        <a target="_blank" href="https://twitter.com/FoneFanClub" rel="noreferrer">
           <FaTwitter />
         </a>
       </Links>
